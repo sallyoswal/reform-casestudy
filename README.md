@@ -2,6 +2,10 @@
 
 Upload a shipping PDF (bill of lading, invoice), view it, and extract structured fields via Claude — with extracted values highlighted on the PDF.
 
+| PDF viewer with extracted values highlighted | Extracted field table with confidence + reasoning |
+| --- | --- |
+| ![PDF viewer with highlights](docs/screenshots/reform1.png) | ![Extracted information table](docs/screenshots/reform2.png) |
+
 ## Steps to start the services
 
 Prerequisites: Node 18+, npm.
