@@ -1,0 +1,13 @@
+{
+  "name": "reform-casestudy",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently -n client,server -c blue,green \"npm run dev --workspace=client\" \"npm run dev --workspace=server\"",
+    "build": "npm run build --workspace=client && npm run build --workspace=server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
